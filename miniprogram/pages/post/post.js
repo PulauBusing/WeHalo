@@ -35,14 +35,14 @@ Page({
         let interstitialAd = null
 
         // 在页面onLoad回调事件中创建插屏广告实例
-        if (wx.createInterstitialAd) {
-            interstitialAd = wx.createInterstitialAd({
-                adUnitId: 'adunit-296c920c08da636d'
-            })
-            interstitialAd.onLoad(() => { })
-            interstitialAd.onError((err) => { })
-            interstitialAd.onClose(() => { })
-        }
+        // if (wx.createInterstitialAd) {
+        //     interstitialAd = wx.createInterstitialAd({
+        //         adUnitId: 'adunit-296c920c08da636d'
+        //     })
+        //     interstitialAd.onLoad(() => { })
+        //     interstitialAd.onError((err) => { })
+        //     interstitialAd.onClose(() => { })
+        // }
 
         // 在适合的场景显示插屏广告
         if (interstitialAd) {

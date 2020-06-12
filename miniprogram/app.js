@@ -6,7 +6,7 @@ App({
         }
         else {
             wx.cloud.init({
-                env: 'xlr-0053be',
+                env: 'windtree-habtw',
                 traceUser: true,
             })
         }
@@ -92,13 +92,13 @@ App({
         userInfo: null,
         skin: null,
         roleFlag: false,
-        url: "xx",//http://localhost:8090
-        BlogName: "xx",
-        token: "xx",
+        url: "https://windcat.windtree.top",
+        BlogName: "风与猫",
+        token: "wind7712165",
         highlightStyle: "dracula", //代码高亮样式，可用值default,darcula,dracula,tomorrow
-        adminOpenid: "xx",
-        HaloUser: "xx",
-        HaloPassword: "xx"
+        adminOpenid: "oI7nr0GWcDjNviziNYAMGH9cUq2c",
+        HaloUser: "windcat",
+        HaloPassword: "wind435200"
     }
     
 })
